@@ -1,3 +1,16 @@
-const fn = function () {
-  console.log('Function Working');
-};
+const express = require('express');
+
+const app = express();
+
+// middlewares
+app.use(express.static('public'));
+
+app.get('/', (req, res) => {
+  res.sendFile(path.resolve(__dirname, 'temp/index.html'));
+});
+
+const port = 3000;
+
+app.listen(port, () => {
+  console.log('Server was started with ' + port + ' port ...');
+});
