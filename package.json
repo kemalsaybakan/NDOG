@@ -1,0 +1,27 @@
+{
+  "name": "ndog",
+  "version": "1.0.0",
+  "description": "NDog Photo Application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemalsaybakan/NDOG.git"
+  },
+  "keywords": [
+    "Photo",
+    "App",
+    "Camera"
+  ],
+  "author": "Kemal Saybakan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kemalsaybakan/NDOG/issues"
+  },
+  "homepage": "https://github.com/kemalsaybakan/NDOG#readme",
+  "devDependencies": {
+    "prettier": "2.7.1"
+  }
+}
